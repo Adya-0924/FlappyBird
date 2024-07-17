@@ -1,0 +1,606 @@
+{
+  "id": "24a9fefc0957e41edb8f79605fd087720",
+  "revision": "34a9fefc0957e41edb8f79605fd087720",
+  "version": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 181
+  },
+  "creatorIdentifier": "com.facebook.arstudio.skylight",
+  "creatorPlatform": "macosx",
+  "creatorFileVersion": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 181
+  },
+  "visual_programming": {
+    "connections": [
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:210689-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "fromPatch": "template_patch_model:210685-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "fromPort": "101",
+        "toPatch": "template_patch_model:210687-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "toPort": "2"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:210691-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "fromPatch": "template_patch_model:210687-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "fromPort": "100",
+        "toPatch": "producer_patch_model:210683-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "toPort": "100"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:210693-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "fromPatch": "producer_patch_model:210683-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "fromPort": "1002",
+        "toPatch": "patch_asset_instance_model:210527-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "toPort": "3356630537719298231"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:210697-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "fromPatch": "patch_asset_instance_model:210527-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "fromPort": "16670126516595863515",
+        "toPatch": "consumer_patch_model:210695-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:210707-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "fromPatch": "patch_asset_instance_model:210527-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "fromPort": "10723434343030820349",
+        "toPatch": "consumer_patch_model:210699-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:210709-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "fromPatch": "patch_asset_instance_model:210527-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "fromPort": "10723434343030820349",
+        "toPatch": "consumer_patch_model:210703-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:210711-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "fromPatch": "patch_asset_instance_model:210527-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "fromPort": "2107968392837955242",
+        "toPatch": "consumer_patch_model:210701-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:210713-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "fromPatch": "patch_asset_instance_model:210527-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "fromPort": "2107968392837955242",
+        "toPatch": "consumer_patch_model:210705-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:210719-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "fromPatch": "patch_asset_instance_model:210527-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "fromPort": "6771378985272827573",
+        "toPatch": "consumer_patch_model:210715-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:210721-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "fromPatch": "patch_asset_instance_model:210527-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "fromPort": "9608142381488881092",
+        "toPatch": "consumer_patch_model:210717-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:211156-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "fromPatch": "patch_asset_instance_model:210527-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "fromPort": "8667016831278510435",
+        "toPatch": "consumer_patch_model:211154-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:211160-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "fromPatch": "patch_asset_instance_model:210527-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "fromPort": "15742290003558161494",
+        "toPatch": "consumer_patch_model:211158-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:211387-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "fromPatch": "patch_asset_instance_model:210527-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "fromPort": "5429414481815150794",
+        "toPatch": "consumer_patch_model:211385-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "toPort": "2"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:211391-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "fromPatch": "patch_asset_instance_model:210527-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "fromPort": "7290778216271037898",
+        "toPatch": "consumer_patch_model:211389-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:212109-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "fromPatch": "patch_asset_instance_model:210527-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "fromPort": "7290778216271037898",
+        "toPatch": "template_patch_model:212107-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:212111-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "fromPatch": "template_patch_model:212107-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "fromPort": "100",
+        "toPatch": "consumer_patch_model:212103-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:213291-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "fromPatch": "patch_asset_instance_model:210527-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "fromPort": "881717534064968887",
+        "toPatch": "consumer_patch_model:213289-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:213539-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "fromPatch": "template_patch_model:213293-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:213537-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "toPort": "2"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:213541-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "fromPatch": "template_patch_model:213537-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "fromPort": "100",
+        "toPatch": "patch_asset_instance_model:210527-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "toPort": "16594405592126486861"
+      }
+    ],
+    "graphs": [
+      {
+        "modelName": "patch_graph",
+        "identifier": "patch_graph:90-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "subpatches": [
+          "consumer_patch_model:210695-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+          "consumer_patch_model:210699-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+          "consumer_patch_model:210701-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+          "consumer_patch_model:210703-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+          "consumer_patch_model:210705-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+          "consumer_patch_model:210715-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+          "consumer_patch_model:210717-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+          "consumer_patch_model:211154-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+          "consumer_patch_model:211158-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+          "consumer_patch_model:211385-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+          "consumer_patch_model:211389-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+          "consumer_patch_model:212103-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+          "consumer_patch_model:213289-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+          "patch_asset_instance_model:210527-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+          "producer_patch_model:210683-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+          "template_patch_model:210685-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+          "template_patch_model:210687-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+          "template_patch_model:212107-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+          "template_patch_model:213293-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+          "template_patch_model:213537-4a9fefc0-957e-41ed-b8f7-9605fd087720"
+        ]
+      }
+    ],
+    "patches": [
+      {
+        "modelName": "consumer_patch_model",
+        "name": "bird",
+        "identifier": "consumer_patch_model:210695-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "object": "plane:210067-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "objectProperty": "position",
+        "position": [
+          932,
+          -172
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "vec3",
+              "v": [
+                0,
+                0,
+                0
+              ]
+            }
+          }
+        ],
+        "variantInfo": "local_transform"
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "UP1 Null",
+        "identifier": "consumer_patch_model:210699-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "object": "sceneObject:209576-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "objectProperty": "position",
+        "position": [
+          932,
+          -100
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "vec3",
+              "v": [
+                0,
+                0,
+                0
+              ]
+            }
+          }
+        ],
+        "variantInfo": "local_transform"
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "DOWN1 Null",
+        "identifier": "consumer_patch_model:210701-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "object": "sceneObject:209719-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "objectProperty": "position",
+        "position": [
+          932,
+          -28
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "vec3",
+              "v": [
+                0,
+                0,
+                0
+              ]
+            }
+          }
+        ],
+        "variantInfo": "local_transform"
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "UP2 Null",
+        "identifier": "consumer_patch_model:210703-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "object": "sceneObject:209743-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "objectProperty": "position",
+        "position": [
+          932,
+          44
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "vec3",
+              "v": [
+                0,
+                0,
+                0
+              ]
+            }
+          }
+        ],
+        "variantInfo": "local_transform"
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "DOWN2 Null",
+        "identifier": "consumer_patch_model:210705-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "object": "sceneObject:209749-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "objectProperty": "position",
+        "position": [
+          932,
+          116
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "vec3",
+              "v": [
+                0,
+                0,
+                0
+              ]
+            }
+          }
+        ],
+        "variantInfo": "local_transform"
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "Obstacle 1",
+        "identifier": "consumer_patch_model:210715-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "object": "sceneObject:209442-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "objectProperty": "position",
+        "position": [
+          1316,
+          212
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "vec3",
+              "v": [
+                0,
+                0,
+                0
+              ]
+            }
+          }
+        ],
+        "variantInfo": "local_transform"
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "Obstacle2",
+        "identifier": "consumer_patch_model:210717-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "object": "sceneObject:209753-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "objectProperty": "position",
+        "position": [
+          1316,
+          284
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "vec3",
+              "v": [
+                0,
+                0,
+                0
+              ]
+            }
+          }
+        ],
+        "variantInfo": "local_transform"
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "Pass",
+        "identifier": "consumer_patch_model:211154-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "object": "plane:210723-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "objectProperty": "visible",
+        "position": [
+          1004,
+          380
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "bool",
+              "v": true
+            }
+          }
+        ]
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "hit",
+        "identifier": "consumer_patch_model:211158-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "object": "plane:210942-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "objectProperty": "visible",
+        "position": [
+          1004,
+          308
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "bool",
+              "v": true
+            }
+          }
+        ]
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "Score",
+        "identifier": "consumer_patch_model:211385-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "object": "2_d_text_model:211162-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "objectProperty": "planar_text_text",
+        "position": [
+          847.4722373252256,
+          409.6643648698172
+        ],
+        "values": [
+          {
+            "port": "2",
+            "value": {
+              "t": "string",
+              "v": "0"
+            }
+          }
+        ]
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "bird",
+        "identifier": "consumer_patch_model:211389-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "object": "plane:210067-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "objectProperty": "visible",
+        "position": [
+          1148,
+          356
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "bool",
+              "v": true
+            }
+          }
+        ]
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "Game over",
+        "identifier": "consumer_patch_model:212103-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "object": "2_d_text_model:211851-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "objectProperty": "visible",
+        "position": [
+          1268,
+          476
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "bool",
+              "v": false
+            }
+          }
+        ]
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "Indicator",
+        "identifier": "consumer_patch_model:213289-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "object": "sceneObject:213049-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "objectProperty": "visible",
+        "position": [
+          836,
+          524
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "bool",
+              "v": true
+            }
+          }
+        ]
+      },
+      {
+        "modelName": "patch_asset_instance_model",
+        "name": "Flappy Bird - Game Controller",
+        "identifier": "patch_asset_instance_model:210527-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "patchAsset": "patch_data_base_model:208162-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "position": [
+          452,
+          20
+        ],
+        "values": [
+          {
+            "port": "16594405592126486861",
+            "value": {
+              "t": "bool",
+              "v": false
+            }
+          },
+          {
+            "port": "1745802882514690914",
+            "value": {
+              "t": "bool",
+              "v": false
+            }
+          },
+          {
+            "port": "6025954875987220962",
+            "value": {
+              "t": "double",
+              "v": 0.8
+            }
+          },
+          {
+            "port": "9597794668489598969",
+            "value": {
+              "t": "double",
+              "v": 0.3
+            }
+          }
+        ]
+      },
+      {
+        "modelName": "producer_patch_model",
+        "name": "faceTracker0",
+        "identifier": "producer_patch_model:210683-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "object": "facetracker:210071-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "position": [
+          188,
+          44
+        ]
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Face Finder",
+        "identifier": "template_patch_model:210685-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "position": [
+          -244,
+          44
+        ],
+        "templateId": "builtin.faceTracker"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Face Select",
+        "identifier": "template_patch_model:210687-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "position": [
+          -52,
+          44
+        ],
+        "templateId": "builtin.facePicker",
+        "values": [
+          {
+            "port": "1",
+            "value": {
+              "t": "int",
+              "v": 0
+            }
+          }
+        ]
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Not",
+        "identifier": "template_patch_model:212107-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "position": [
+          1076,
+          476
+        ],
+        "templateId": "builtin.negation"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Screen Tap",
+        "identifier": "template_patch_model:213293-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "position": [
+          20,
+          236
+        ],
+        "templateId": "builtin.tapGesture"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Switch",
+        "identifier": "template_patch_model:213537-4a9fefc0-957e-41ed-b8f7-9605fd087720",
+        "position": [
+          188,
+          236
+        ],
+        "templateId": "builtin.toggle"
+      }
+    ]
+  }
+}
